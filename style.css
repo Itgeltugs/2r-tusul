@@ -1,0 +1,972 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.box1 {
+  height: 754px;
+  background-image: url(./2r\ tusul\ box1\ zurag.png);
+  background-position: center;
+  background-size: cover;
+}
+header {
+  height: 75px;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 35px;
+  padding-right: 122px;
+}
+nav {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.nav1 {
+  width: 603px;
+  height: 20px;
+  gap: 40px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #000000;
+  font-family: "manrope";
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: none;
+}
+.nav1 p {
+  font-style: "manrope";
+  font-size: 14px;
+  font-weight: 700;
+  color: #000000;
+}
+.nav2 {
+  width: 91px;
+  height: 40px;
+  background-color: #f84646;
+  color: #ffffff;
+  font-family: "manrope";
+  font-size: 700;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 787px;
+  height: 531px;
+  padding-top: 135px;
+  padding-left: 122px;
+}
+section h1 {
+  font-size: 64px;
+  font-weight: 800;
+  font-family: "manrope";
+}
+.sectionp {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "manrope";
+  padding-bottom: 30px;
+}
+section div {
+  width: 502px;
+  height: 73px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 8px;
+}
+.sectiondivp {
+  border: 0px;
+  width: 210px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "manrope";
+  padding-left: 32px;
+  color: #00000063;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sectionbutton {
+  width: 136px;
+  height: 61px;
+  border-radius: 8px;
+  background-color: #f84646;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 6px;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "manrope";
+  color: white;
+  border: 0px;
+}
+
+.box2 {
+  padding: 120px 144px 140px 143px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+.box2a {
+  width: 994px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.box2a h2 {
+  width: 428px;
+  height: 56px;
+  font-weight: 800;
+  font-size: 36px;
+  font-family: "manrope";
+}
+.box2a p {
+  width: 852px;
+  height: 109px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "manrope";
+}
+.box2b {
+  width: 1200px;
+  height: 508px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 83px;
+}
+.box2b1 {
+  display: flex;
+  flex-direction: column;
+  justify-conten: center;
+  align-items: center;
+  gap: 10px;
+  width: 316px;
+  height: 214px;
+}
+.box2b1a {
+  width: 79px;
+  height: 77px;
+  background-image: url(./box2:1file-icon.svg);
+}
+.box2b1b {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.box2b1b h3 {
+  font-family: "manrope";
+  font-weight: 800;
+  font-size: 24px;
+}
+.box2bp {
+  height: 84px;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "manrope";
+  text-align: center;
+}
+
+.box2b2 {
+  display: flex;
+  flex-direction: column;
+  justify-conten: center;
+  align-items: center;
+  gap: 10px;
+  width: 316px;
+  height: 203px;
+}
+.box2b2a {
+  width: 81px;
+  height: 76px;
+  background-image: url(./box2:2od.svg);
+}
+.box2b2b {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.box2b2b h3 {
+  font-family: "manrope";
+  font-weight: 800;
+  font-size: 24px;
+}
+.box2b2b p {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "manrope";
+  text-align: center;
+}
+
+.box2b3 {
+  display: flex;
+  flex-direction: column;
+  justify-conten: center;
+  align-items: center;
+  gap: 10px;
+  width: 316px;
+  height: 203px;
+}
+.box2b3a {
+  width: 90px;
+  height: 76px;
+  background-image: url(./box2:3titem.svg);
+}
+.box2b3b {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.box2b3b h3 {
+  font-family: "manrope";
+  font-weight: 800;
+  font-size: 24px;
+}
+.box2b3b p {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "manrope";
+  text-align: center;
+}
+
+.box2b4 {
+  display: flex;
+  flex-direction: column;
+  justify-conten: center;
+  align-items: center;
+  gap: 10px;
+  width: 316px;
+  height: 203px;
+}
+.box2b4a {
+  width: 77px;
+  height: 76px;
+  background-image: url(./box2:4chart.svg);
+}
+.box2b4b {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.box2b4b h3 {
+  font-family: "manrope";
+  font-weight: 800;
+  font-size: 24px;
+}
+.box2b4b p {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "manrope";
+  text-align: center;
+}
+
+.box2b5 {
+  display: flex;
+  flex-direction: column;
+  justify-conten: center;
+  align-items: center;
+  gap: 10px;
+  width: 316px;
+  height: 203px;
+}
+.box2b5a {
+  width: 83px;
+  height: 78px;
+  background-image: url(./box2:5pie-chart.svg);
+}
+.box2b5b {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.box2b5b h3 {
+  font-family: "manrope";
+  font-weight: 800;
+  font-size: 24px;
+}
+.box2b5b p {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "manrope";
+  text-align: center;
+}
+
+.box2b6 {
+  display: flex;
+  flex-direction: column;
+  justify-conten: center;
+  align-items: center;
+  gap: 10px;
+  width: 316px;
+  height: 203px;
+}
+.box2b6a {
+  width: 67px;
+  height: 78px;
+  background-image: url(./box2:6figma-logo.svg);
+}
+.box2b6b {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.box2b6b h3 {
+  font-family: "manrope";
+  font-weight: 800;
+  font-size: 24px;
+}
+.box2b6b p {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "manrope";
+  text-align: center;
+}
+
+.box3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  padding: 68px 0px 78px 0px;
+  background-image: url(./box3background.png);
+}
+.box3a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box3a h2 {
+  font-weight: 800;
+  font-size: 48px;
+  font-family: "manrope";
+  color: white;
+}
+.box3a p {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "manrope";
+  color: white;
+}
+.box3b {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.box3b p {
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "manrope";
+}
+.box3b svg {
+  width:;
+  height:;
+}
+
+.box4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "manrope";
+  padding: 160px 122px;
+  gap: 120px;
+}
+.box4a {
+  display: flex;
+  gap: 85px;
+}
+.box4a1 {
+  width: 608px;
+  height: 480px;
+}
+.box4a1 h1 {
+  color: #2e2e2e;
+  font-weight: 700;
+  font-size: 64px;
+}
+.box4a1 p {
+  color: #808080;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.box4a1 button {
+  width: 160px;
+  height: 48px;
+  background-color: #f84646;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  border: 0px;
+}
+.box4a2 {
+  width: 504px;
+  height: 480px;
+  background-image: url(./box4:1.png);
+  ackground-position: center;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.box4b {
+  display: flex;
+  gap: 85px;
+}
+.box4b2 {
+  width: 608px;
+  height: 480px;
+}
+.box4b2h1 {
+  color: #2e2e2e;
+  font-weight: 700;
+  font-size: 64px;
+}
+.box4b2h11 {
+  font-weight: 700;
+  font-size: 58px;
+  font-family: "manrope";
+  color: #2e2e2e;
+  display: none;
+}
+.box4b2p {
+  color: #808080;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.box4b2pp {
+  color: #808080;
+  font-weight: 400;
+  font-size: 14px;
+  display: none;
+}
+.box4b2 button {
+  width: 160px;
+  height: 48px;
+  background-color: #f84646;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  border: 0px;
+}
+.box4b1 {
+  width: 504px;
+  height: 480px;
+  background-image: url(./box4:2.jpg);
+  ackground-position: center;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.box5 {
+  height: 603px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f5f7;
+  font-family: "manrope";
+}
+.box5a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box5a h2 {
+  font-weight: 800;
+  font-size: 48px;
+  color: #18191f;
+}
+.box5a p {
+  font-weight: 500;
+  font-size: 18px;
+  color: #18191f;
+}
+.box5b {
+  align-items: center;
+  display: flex;
+  gap: 24px;
+}
+.box5b1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 8px;
+  width: 170px;
+  height: 96px;
+}
+.box5b1img {
+  width: 134px;
+  height: 67px;
+}
+
+.box5b2 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 216px;
+}
+.box5b2a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 96px;
+  background-color: white;
+  border-radius: 8px;
+}
+.box5b2img1 {
+  width: 134px;
+  height: 67px;
+}
+.box5b2b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 96px;
+  background-color: white;
+  border-radius: 8px;
+}
+.box5b2img2 {
+  width: 123px;
+  height: 37px;
+}
+
+.box5b3 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 336px;
+}
+.box5b3a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 96px;
+  background-color: white;
+  border-radius: 8px;
+}
+.box5b3img1 {
+  width: 132px;
+  height: 66px;
+}
+.box5b3b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 96px;
+  background-color: white;
+  border-radius: 8px;
+}
+.box5b3img2 {
+  width: 132px;
+  height: 66px;
+}
+.box5b3c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 96px;
+  background-color: white;
+  border-radius: 8px;
+}
+.box5b3img3 {
+  width: 167px;
+  height: 52px;
+}
+
+.box5b4 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 216px;
+}
+.box5b4a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 96px;
+  background-color: white;
+  border-radius: 8px;
+}
+.box5b4img1 {
+  width: 118px;
+  height: 59px;
+}
+.box5b4b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 96px;
+  background-color: white;
+  border-radius: 8px;
+}
+.box5b4img2 {
+  width: 98px;
+  height: 34px;
+}
+
+.box5b5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 8px;
+  width: 170px;
+  height: 96px;
+}
+.box5b5img {
+  width: 103px;
+  height: 32px;
+}
+
+.box6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 160px 398px;
+}
+.box6div {
+  width: 120px;
+  height: 120px;
+  background-image: url(./box6\ UsersLogo.svg);
+  background-position: center;
+  background-size: cover;
+}
+.box6 h2 {
+  padding-top: 10px;
+  font-weight: 800;
+  font-size: 48px;
+  font-family: "manrope";
+}
+.box6 p {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "manrope";
+}
+.box6 button {
+  width: 204px;
+  height: 70px;
+  border-radius: 8px;
+  background-color: #f84646;
+  border: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+footer {
+  font-size: 16px;
+  font-family: "inter";
+  height: 536px;
+  background-color: #f8464a;
+}
+.footerdiv1 {
+  display: flex;
+  align-items: flex-start;
+  gap: 100px;
+  padding-top: 80px;
+  padding-left: 104px;
+}
+.footerdivP {
+  font-weight: 700;
+  color: white;
+}
+.footerdiv1a {
+  color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+}
+.footerdiv1a p {
+  display: flex;
+  align-items: center;
+  height: 32px;
+}
+.footerdiv1b {
+  color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+}
+.footerdiv1b p {
+  display: flex;
+  align-items: center;
+  height: 32px;
+}
+.footerdiv1c {
+  color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+}
+.footerdiv1c p {
+  display: flex;
+  align-items: center;
+  height: 32px;
+}
+.footerdiv1d {
+  color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+}
+.footerdiv1d p {
+  display: flex;
+  align-items: center;
+  height: 32px;
+}
+.footerdiv2 {
+  padding-right: 98px;
+  padding-top: 50px;
+  padding-left: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerp {
+  color: white;
+  font-weight: 400;
+}
+.footerlogo {
+  width: 224px;
+  height: 32px;
+  display: flex;
+  gap: 16px;
+}
+.footerlogo img {
+  width: 32px;
+  height: 32px;
+}
+
+@media (max-width: 1024px) {
+  .box1 {
+    height: 647px;
+  }
+  header {
+    padding-right: 40px;
+  }
+  section {
+    padding-top: 96px;
+    padding-left: 84px;
+  }
+  section h1 {
+    width: 625px;
+    height: 147px;
+    font-size: 56px;
+  }
+  .sectionp {
+    width: 525px;
+    height: 99px;
+    font-size: 16px;
+    padding: 0px;
+  }
+  section div {
+    width: 422px;
+    height: 73px;
+  }
+  .sectionbutton {
+    margin-right: 4px;
+    width: 114.33px;
+  }
+  .box2a p {
+    width: 852px;
+  }
+  .box2b {
+    justify-content: center;
+    gap: 80px;
+    width: 764px;
+    height: 798px;
+  }
+  .box2b1 {
+    width: 298px;
+    height: 212px;
+  }
+  .box2b1a {
+    width: 81px;
+    height: 76px;
+  }
+  .box2bp {
+    width: 298px;
+  }
+  .box2b2 {
+    width: 298px;
+    height: 212px;
+  }
+  .box2b2a {
+    width: 81px;
+    height: 76px;
+  }
+  .box2bpp {
+    width: 316px;
+    height: 84px;
+  }
+  .box3a {
+    width: 826px;
+    height: 104px;
+    gap: 8px;
+  }
+  .box3b {
+    width: 906px;
+    height: 52.77px;
+  }
+  .box3b p {
+    font-size: 14px;
+  }
+  .box3b svg {
+    width: 28.29px;
+    height: 27.24px;
+  }
+  .box4 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .box4a {
+    width: 904px;
+    height: 404px;
+    gap: 0px;
+  }
+  .box4a1 {
+    width: 515px;
+    height: 404px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .box4a1 h1 {
+    font-size: 58px;
+  }
+  .box4a1 p {
+    width: 428px;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 46px;
+  }
+  .box4a2 {
+    width: 424px;
+    height: 404px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .box4b {
+    width: 904px;
+    height: 404px;
+    gap: 56px;
+  }
+  .box4b2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 515px;
+    height: 404px;
+  }
+  .box4b2h1 {
+    display: none;
+    font-size: 58px;
+  }
+  .box4b2h11 {
+    width: 424px;
+    display: block;
+  }
+  .box4b2p {
+    display: none;
+  }
+  .box4b2pp {
+    display: block;
+    width: 428px;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 46px;
+  }
+  .box4b1 {
+    background-image: url(./box4b1a.jpg);
+    width: 424px;
+    height: 404px;
+    background-position: center;
+    background-size: cover;
+  }
+  .box5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .box5a {
+    padding-top: 45px;
+  }
+  .box6 {
+    padding: 160px 189px;
+  }
+  .footerdiv1 {
+    display: flex;
+    gap: 49px;
+    padding-left: 61px;
+  }
+  .footerdiv2 {
+    padding-left: 61px;
+    padding-right: 60px;
+  }
+}
+@media (max-width: 600px) {
+}
