@@ -8,9 +8,10 @@
   background-image: url(./2r\ tusul\ box1\ zurag.png);
   background-position: center;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 header {
-  height: 75px;
   display: flex;
   justify-content: flex-end;
   padding-top: 35px;
@@ -20,9 +21,10 @@ nav {
   display: flex;
   gap: 40px;
   align-items: center;
+  justify-content: space-between;
 }
 .nav1 {
-  width: 603px;
+  max-width: 603px;
   height: 20px;
   gap: 40px;
   font-size: 14px;
@@ -31,6 +33,7 @@ nav {
   font-family: "manrope";
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .menu {
   display: none;
@@ -58,8 +61,7 @@ section {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 787px;
-  height: 531px;
+  max-width: 787px;
   padding-top: 135px;
   padding-left: 122px;
 }
@@ -75,8 +77,8 @@ section h1 {
   padding-bottom: 30px;
 }
 section div {
-  width: 502px;
-  height: 73px;
+  max-width: 502px;
+  max-height: 73px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -85,7 +87,7 @@ section div {
 }
 .sectiondivp {
   border: 0px;
-  width: 210px;
+  max-width: 210px;
   font-size: 16px;
   font-weight: 400;
   font-family: "manrope";
@@ -96,6 +98,7 @@ section div {
   justify-content: center;
 }
 .sectionbutton {
+  transition: all 2s;
   width: 136px;
   height: 61px;
   border-radius: 8px;
@@ -104,11 +107,17 @@ section div {
   align-items: center;
   justify-content: center;
   margin-right: 6px;
+  margin-top: 6px;
+  margin-bottom: 6px;
   font-weight: 700;
   font-size: 16px;
   font-family: "manrope";
   color: white;
   border: 0px;
+}
+.sectionbutton:hover {
+  background: black;
+  transform: scale(2);
 }
 
 .box2 {
@@ -120,7 +129,6 @@ section div {
   gap: 90px;
 }
 .box2a {
-  width: 994px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -128,14 +136,12 @@ section div {
   gap: 30px;
 }
 .box2a h2 {
-  width: 428px;
-  height: 56px;
   font-weight: 800;
   font-size: 36px;
   font-family: "manrope";
 }
 .box2a p {
-  width: 852px;
+  max-width: 852px;
   height: 109px;
   text-align: center;
   font-weight: 400;
@@ -143,9 +149,9 @@ section div {
   font-family: "manrope";
 }
 .box2b {
-  width: 1200px;
-  height: 508px;
+  max-width: 1153px;
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 83px;
 }
@@ -370,11 +376,12 @@ section div {
   color: white;
 }
 .box3b {
+  gap: 30px;
+  max-height: 52px;
   display: flex;
   color: white;
   align-items: center;
-  justify-content: center;
-  gap: 30px;
+  justify-content: space-between;
 }
 .box3b p {
   font-weight: 700;
@@ -396,12 +403,18 @@ section div {
   gap: 120px;
 }
 .box4a {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   display: flex;
   gap: 85px;
 }
 .box4a1 {
-  width: 608px;
-  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 608px;
+  max-height: 480px;
 }
 .box4a1 h1 {
   color: #2e2e2e;
@@ -409,6 +422,7 @@ section div {
   font-size: 64px;
 }
 .box4a1 p {
+  max-width: 523px;
   color: #808080;
   padding-top: 40px;
   padding-bottom: 80px;
@@ -438,12 +452,18 @@ section div {
 }
 
 .box4b {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   display: flex;
   gap: 85px;
 }
 .box4b2 {
-  width: 608px;
-  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 608px;
+  max-height: 480px;
 }
 .box4b2h1 {
   color: #2e2e2e;
@@ -490,6 +510,9 @@ section div {
   ackground-position: center;
   background-size: cover;
   border-radius: 8px;
+}
+.box4b11 {
+  display: none;
 }
 
 .box5 {
@@ -686,12 +709,17 @@ section div {
   background-size: cover;
 }
 .box6 h2 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-top: 10px;
   font-weight: 800;
   font-size: 48px;
   font-family: "manrope";
 }
 .box6 p {
+  text-align: center;
   padding-top: 20px;
   padding-bottom: 30px;
   font-weight: 500;
@@ -713,27 +741,31 @@ section div {
 }
 
 footer {
+  flex-wrap: wrap;
   font-size: 16px;
   font-family: "inter";
   height: 536px;
   background-color: #f8464a;
 }
 .footerdiv1 {
+  max-width: 1034px;
   display: flex;
   align-items: flex-start;
-  gap: 100px;
+  justify-content: space-between;
   padding-top: 80px;
   padding-left: 104px;
+  padding-right: 104px;
 }
 .footerdivP {
   font-weight: 700;
   color: white;
 }
 .footerdiv1a {
+  min-height: 304px;
   color: #e5e5e5;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  justify-content: space-between;
   align-items: flex-start;
 }
 .footerdiv1a p {
@@ -742,10 +774,11 @@ footer {
   height: 32px;
 }
 .footerdiv1b {
+  min-height: 248px;
   color: #e5e5e5;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  justify-content: space-between;
   align-items: flex-start;
 }
 .footerdiv1b p {
@@ -754,10 +787,11 @@ footer {
   height: 32px;
 }
 .footerdiv1c {
+  min-height: 192px;
   color: #e5e5e5;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  justify-content: space-between;
   align-items: flex-start;
 }
 .footerdiv1c p {
@@ -766,10 +800,11 @@ footer {
   height: 32px;
 }
 .footerdiv1d {
+  min-height: 136px;
   color: #e5e5e5;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  justify-content: space-between;
   align-items: flex-start;
 }
 .footerdiv1d p {
@@ -802,17 +837,30 @@ footer {
 
 @media (max-width: 1024px) {
   .box1 {
-    height: 647px;
+    min-width: 398px;
+    max-height: 647px;
   }
   header {
     padding-right: 40px;
   }
+  nav {
+    width: 100%;
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav1 p {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
   section {
-    padding-top: 96px;
-    padding-left: 84px;
+  
   }
   section h1 {
-    width: 625px;
+    width: 100%
     height: 147px;
     font-size: 56px;
   }
@@ -868,7 +916,7 @@ footer {
     gap: 8px;
   }
   .box3b {
-    width: 906px;
+    max-width: 906px;
     height: 52.77px;
   }
   .box3b p {
@@ -883,13 +931,17 @@ footer {
     padding-right: 0px;
   }
   .box4a {
-    width: 904px;
-    height: 404px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 904px;
+    max-height: 404px;
     gap: 0px;
   }
   .box4a1 {
-    width: 515px;
-    height: 404px;
+    max-width: 515px;
+    max-height: 404px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -904,30 +956,32 @@ footer {
     padding-bottom: 46px;
   }
   .box4a2 {
-    width: 424px;
-    height: 404px;
+    max-width: 424px;
+    max-height: 404px;
     background-position: center;
     background-size: cover;
   }
 
   .box4b {
-    width: 904px;
-    height: 404px;
-    gap: 56px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 404px;
   }
   .box4b2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 515px;
-    height: 404px;
+    max-width: 428px;
+    max-height: 404px;
   }
   .box4b2h1 {
     display: none;
     font-size: 58px;
   }
   .box4b2h11 {
-    width: 424px;
+    max-width: 424px;
     display: block;
   }
   .box4b2p {
@@ -941,11 +995,16 @@ footer {
     padding-bottom: 46px;
   }
   .box4b1 {
+    display: none;
+  }
+  .box4b11 {
+    display: block;
     background-image: url(./box4b1a.jpg);
     width: 424px;
     height: 404px;
     background-position: center;
     background-size: cover;
+    border-radius: 8px;
   }
   .box5 {
     display: flex;
@@ -968,5 +1027,8 @@ footer {
     padding-right: 60px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 393px) {
+  .box1 {
+    min-width: 393px;
+  }
 }
