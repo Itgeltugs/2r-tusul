@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 .box1 {
-  height: 754px;
+  /* height: 754px; */
+ 
   background-image: url(./2r\ tusul\ box1\ zurag.png);
   background-position: center;
   background-size: cover;
@@ -64,6 +65,7 @@ section {
   max-width: 787px;
   padding-top: 135px;
   padding-left: 122px;
+   padding-bottom: 148px;
 }
 section h1 {
   font-size: 64px;
@@ -377,7 +379,7 @@ section div {
 }
 .box3b {
   gap: 30px;
-  max-height: 52px;
+  /* max-height: 52px; */
   display: flex;
   color: white;
   align-items: center;
@@ -516,7 +518,7 @@ section div {
 }
 
 .box5 {
-  height: 603px;
+  /* height: 603px; */
   display: flex;
   flex-direction: column;
   gap: 48px;
@@ -525,7 +527,7 @@ section div {
   background-color: #f4f5f7;
   font-family: "manrope";
 }
-.box5a {
+.box5a {padding-top: 45px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -540,7 +542,7 @@ section div {
   font-size: 18px;
   color: #18191f;
 }
-.box5b {
+.box5b {padding-bottom: 45px;
   align-items: center;
   display: flex;
   gap: 24px;
@@ -744,7 +746,6 @@ footer {
   flex-wrap: wrap;
   font-size: 16px;
   font-family: "inter";
-  height: 536px;
   background-color: #f8464a;
 }
 .footerdiv1 {
@@ -857,7 +858,8 @@ footer {
     display: block;
   }
   section {
-  
+  padding-top:96px ;
+  padding-left: 20px;
   }
   section h1 {
     width: 100%
@@ -865,8 +867,8 @@ footer {
     font-size: 56px;
   }
   .sectionp {
-    width: 525px;
-    height: 99px;
+    max-width: 525px;
+    max-height: 99px;
     font-size: 16px;
     padding: 0px;
   }
@@ -878,14 +880,12 @@ footer {
     margin-right: 4px;
     width: 114.33px;
   }
-  .box2a p {
-    width: 852px;
+  .box2a {min-width: 590px;
   }
   .box2b {
     justify-content: center;
     gap: 80px;
-    width: 764px;
-    height: 798px;
+    max-width: 590px;
   }
   .box2b1 {
     width: 298px;
@@ -911,13 +911,15 @@ footer {
     height: 84px;
   }
   .box3a {
-    width: 826px;
-    height: 104px;
+    max-width: 590px;
     gap: 8px;
   }
+  .box3ah2 {max-width: 590px;
+    text-align: center;
+  }
   .box3b {
-    max-width: 906px;
-    height: 52.77px;
+    max-width: 590px;
+    /* height: 52.77px; */
   }
   .box3b p {
     font-size: 14px;
@@ -934,10 +936,10 @@ footer {
     flex-wrap: wrap;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    max-width: 904px;
-    max-height: 404px;
-    gap: 0px;
+    /* flex-direction: column; */
+    /* max-width: 904px; */
+    /* max-height: 404px; */
+    /* gap: 0px; */
   }
   .box4a1 {
     max-width: 515px;
@@ -964,10 +966,10 @@ footer {
 
   .box4b {
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     display: flex;
     flex-wrap: wrap;
-    max-height: 404px;
+    /* max-height: 404px; */
   }
   .box4b2 {
     display: flex;
@@ -1014,6 +1016,10 @@ footer {
   .box5a {
     padding-top: 45px;
   }
+  .box5b {flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 45px
+  }
   .box6 {
     padding: 160px 189px;
   }
@@ -1027,8 +1033,57 @@ footer {
     padding-right: 60px;
   }
 }
-@media (max-width: 393px) {
-  .box1 {
-    min-width: 393px;
-  }
+
+@media (max-width: 600px) {
+  .box1 {}
+  section {
+  padding-top: 62px;
+padding-bottom: 84px;}
+  section h1 {font-size: 42px;
+}
+section div {max-width: 335px;
+max-height: 60px;}
+.sectionbutton {max-width: 90;
+max-height: 50px;}
+.box2 {padding-top: 60px; padding-bottom: 90px;
+gap: 40px;}
+.box2a {min-width: 334px;}
+.box2a h2 {font-size: 24px;
+max-width: 334px;}
+.box2a p {font-size: 12px;
+max-width: 334px;}
+.box3 {gap: 80px;}
+.box3a h2 {font-size: 36px;}
+.box3b {flex-wrap: wrap; flex-direction: column; display: flex; justify-content: center; align-items: center;}
+.box3b svg {width: 36px; height: 36px;}
+.box4 {padding-top: 90px; padding-bottom: 79px;}
+.box4a {max-width:338px ; max-height: 733px;}
+.box4a1 {max-width: 338px; ; max-height: ;}
+.box4a1 h1 {font-size: 36px; text-align: center;}
+.box4a1 p {font-size: 14px; max-width: 336px; text-align: center;}
+.box4a1 button {min-width: 338px;}
+.box4a2 {max-width:335px ; max-height: 312px;}
+.box4b2 {max-width: 338px;}
+.box4b11 {max-width:335px ;max-height: 312px;}
+.box4b2h11 {font-size: 36px; text-align: center;}
+.box4b2pp {font-size: 14px; max-width: 336px; text-align: center;}
+.box4b button {min-width: 338px;}
+
+.box5a h2 {font-size: 36px;}
+.box5a p {font-size: 14px;}
+.box5b4 {display: none;}
+.box5b5 {display: none;}
+
+.box6div {max-width: 90px;
+max-height: 90px;}
+.box6 h2 {font-size: 36px; min-width: 192px;}
+.box6 p {min-width: 335px; font-size: 14px;}
+.box6 button {max-width: 124px; max-height: 42px; font-size: 16px;}
+.box6 {padding-top: 90px;
+padding-bottom: 82px;}
+.footerdiv1 {padding-top: 80px; max-width: 400px;
+padding-left: 20px; flex-wrap: wrap;}
+.footerdiv2 {padding-bottom: 77px; padding-left: 20px; 
+padding-top: 30px; flex-direction: column-reverse; gap: 62px; align-items: flex-start;}
+.footerlogo {max-width: 224px;}
 }
